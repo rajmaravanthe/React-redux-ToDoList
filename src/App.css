@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  border: 1px solid grey;
+}
+
+.icon-list {
+  padding: 10px;
+}
+
+input {
+  width: 80%;
+  height: 30px;
+  margin-left: -106px;
+  align-items: flex-start;
+}
+
+button {
+  width: 10%;
+  height: 35px;
+  margin-left: 10px;
+}

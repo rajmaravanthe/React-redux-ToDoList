@@ -39,7 +39,7 @@
 
 .list-group-item {
   display: flex;
-  padding: 20px;
+  padding: 10px;
   margin: 10px;
   border: 1px solid grey;
   border-radius: 5px;
@@ -47,7 +47,7 @@
 
 .list-group-item > div {
   background-color: #f1f1f1;
-  margin: 10px;
+  margin: 5px;
   padding: 20px;
   font-size: 30px;
 }
@@ -73,5 +73,5 @@ button {
 }
 
 .content {
-  width: 82%;
+  width: 86%;
 }

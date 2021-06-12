@@ -39,11 +39,17 @@
 
 .list-group-item {
   display: flex;
-  align-items: center;
-  padding: 10px;
+  padding: 20px;
   margin: 10px;
-  justify-content: center;
   border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.list-group-item > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
 }
 
 .icon-list {
@@ -51,14 +57,21 @@
 }
 
 input {
-  width: 80%;
+  width: 40%;
   height: 30px;
-  margin-left: -106px;
   align-items: flex-start;
+  border: 1px solid grey;
+  border-radius: 5px;
 }
 
 button {
   width: 10%;
   height: 35px;
   margin-left: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.content {
+  width: 82%;
 }
